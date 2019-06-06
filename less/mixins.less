@@ -1,7 +1,13 @@
 // Mixins in here
 
-.flexi(@ju, @al){
+.flexi(@ju, @al: none){
 	display: flex;
 	justify-content: @ju;
 	align-items: @al;
+}
+
+.mixin(){
+    color: white;
+    background-color: teal;
+    font-size: 20px;
 }
