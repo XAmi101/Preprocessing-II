@@ -178,6 +178,14 @@ img {
   padding: 25px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .header nav {
   display: flex;
   justify-content: space-around;
@@ -250,6 +258,11 @@ img {
   border-bottom: 2px dashed silver;
   padding: 20px 0;
 }
+@media (max-width: 500px) {
+  .top-section {
+    margin: 20px;
+  }
+}
 .btn {
   border: 1px solid grey;
   width: 85%;
@@ -259,4 +272,26 @@ img {
   color: white;
   background-color: teal;
   font-size: 20px;
+}
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .content-section {
+    margin: 10px;
+  }
+}
+.content-pick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .content-pick {
+    margin: 10px;
+  }
 }
